@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-color: #ffc800;
+    --bs-white: #fff;
+    --bs-gray-dark: #343a40;
+    --bs-gray-500: #adb5bd;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --primary-font: 'poppins', sans-sarif;
+    --protfolo-color:#daefed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* navbar css section */
+.navbar_wrapper {
+    background: transparent;
+}
+
+.navbar_wrapper h1 {
+    color: var(--bg-color);
+    font-family: var(--primary-font);
+    font-weight: 900;
+}
+
+.navbar_wrapper .nav_link a {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    margin-right: 1.80rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: var(--bs-white);
+}
+
+.navbar-toggler:focus {
+    outline: unset !important;
+    border: unset !important;
+    box-shadow: none !important;
+
+}
+
+.navbar-toggler .nav_icon {
+    color: red !important;
+    /* font-size: 50px; */
+
+}
+
+.top_header {
+    width: 100%;
+    background: url(./assets/images/header-bg\ \(1\).jpg );
+    height: 100vh;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.main_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 88vh;
+
+
+}
+
+.text_box h3 {
+    font-size: 1.99rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
+    color: var(--bs-white);
+
+
+
+}
+
+.text_box h1 {
+    font-size: 4.95rem;
+    line-height: 1.5rem;
+    margin-bottom: 5rem;
+    color: var(--bs-white);
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+}
+
+.text_btn {
+    padding: 1rem 3rem !important;
+    color: var(--bs-white) !important;
+    text-transform: uppercase;
+    font-family: var(--primary-font) !important;
+    font-weight: 800 !important;
+
+}
+
+/* service design css */
+.Services {
+    margin-top: 5rem !important;
+    font-family: var(--primary-font) !important;
+    letter-spacing: 10 !important;
+}
+
+.section_subheading {
+    font-family: var(--primary-font) !important;
+}
+
+.services_cred {
+    margin-top: 5rem !important;
+}
+
+.Services .fa-solid {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* justify-content: center !important;
+    align-items: center !important; */
+    
+}
+
+.Services .fa-cart-shopping, .fa-laptop, .fa-lock {
+    font-size: 70px;
+    
+    background-color: var(--bg-color);
+    color: var(--bs-white);
+    
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: auto  !important;
+}
+/* proftolo design css */
+.portfolo{
+    margin-top: 6rem;
+}
+.portfolo_text{
+    padding-top: 5rem;
+}
+.section-subheading{
+    margin-top: 2rem;
+}
+.all_cred{
+    margin-top: 4rem;
+}
+.all_cred2{
+    margin-top: 2rem ;
+}
+.main_portfolo{
+    background-color: var(--protfolo-color);
+    
+}
+.cred img{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.portfolio-caption{
+    background-color: var(--bs-white);
+    padding: 10px 20px;
+
+}
+/* about css deisgn */
+.about-cred{
+    margin-left: 8rem !important;
+    margin-top: 5rem !important;
+
+
+}
+
+.span_img img  {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid var(--bg-color);
+
+}
+.main_text_about{
+    /* margin-right: 1.30rem; */
+   margin-top: 1rem;
+}
+.main_text_about p{
+    line-height: 1.66;
+}
+.about_cred_right{
+    /* display: flex; */
+    justify-content: center;
+}
+.about_cred_text{
+    /* text-align: left !important; */
+}

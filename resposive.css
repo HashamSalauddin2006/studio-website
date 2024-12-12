@@ -1,0 +1,93 @@
+@media (max-width:1140px) {
+    
+} 
+
+
+
+
+@media (max-width:1320px) {
+    
+    
+} 
+
+@media (max-width:960px) {
+   .main_text h1{
+        font-size: 4rem;
+    }
+
+    
+} 
+@media (max-width:768px) {
+    .main_text h1{
+        font-size: 2.589rem;
+    }
+    .about-cred{
+        background-color: var(--bg-color);
+        border-radius: 15px !important;
+        text-align: center !important;
+        justify-content: center !important;
+
+
+    }
+    .subheading{
+        color: var( --bs-white);
+    }
+    .span_img{
+        display: none;
+    }
+    .main_text_about p{
+        text-align: center !important;
+    }
+    .subheading{
+        text-align: center !important;
+    }
+    .about-cred{
+        display: flex;
+        justify-content: center !important;
+    }
+    
+} 
+@media (max-width:540px) {
+    .main_text h1{
+        font-size: 1.99rem;
+    }
+    .cred_all{
+        margin-top: 20px;
+    }
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
