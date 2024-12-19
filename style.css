@@ -204,39 +204,72 @@ html {
 .about_cred_right {
     justify-content: center;
 }
+
 /* OUR TEAM desidn */
-.our_team{
+.our_team {
     margin-top: 5rem;
 }
-.team_memder{
+
+.team_memder {
     margin-top: 5rem;
 }
-.team_memder_img img{
+
+.team_memder_img img {
     width: 60%;
     height: 60%;
     border-radius: 50%;
-    border: 7px solid var(--bs-gray-500 );
+    border: 7px solid var(--bs-gray-500);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.our_team_text{
+
+.our_team_text {
     margin-top: 1rem;
 }
-.our_team_text h4{
+
+.our_team_text h4 {
     font-size: 1.880rem;
 
 }
-.our_team_text p{
+
+.our_team_text p {
     font-weight: 600;
     font-family: var(--primary-font);
 }
-.social_icon .fa-brands{
+
+.social_icon .fa-brands {
     margin-left: 1rem;
     font-size: 2rem;
     color: var(--bs-gray-500);
-  
-  
+}
+
+/* FOOTER AND CONTACT DESIGN */
+.Contact {
+    background: url(./assets/images/map-image\ \(1\).png ) !important;
+
+    /* min-height: 100vh;     */
+    background-color: var(--bs-gray-dark) !important;
+
 
 }
- 
+.footer_box{
+}
+.main_footer{
+    padding-top: 3rem;
+}
+.section-heading-footer{
+    padding-top: 5rem;
+
+}
+.input_box input{
+    width: 40rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+.textarea_box textarea{
+    width: 39rem;
+    /* margin-right: 39rem; */
+    border-radius: 10px;
+}

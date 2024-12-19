@@ -6,6 +6,11 @@
 
 
 @media (max-width:1320px) {
+    .main_footer{
+        display: flex !important;
+        align-items: center !important;
+        justify-self: center !important;
+    }
     
     
 } 
@@ -45,6 +50,14 @@
         display: flex;
         justify-content: center !important;
     }
+    .input_box input{
+        /* text-align: center; */
+        width: 100%;
+
+    }
+    .textarea_box textarea{
+        width: 100%;
+    }
     
 } 
 @media (max-width:540px) {
@@ -53,6 +66,15 @@
     }
     .cred_all{
         margin-top: 20px;
+    }
+    .input_box input{
+        /* text-align: center; */
+        width: 100%;
+
+    }
+    .textarea_box textarea{
+        width: 100%;
+            
     }
     
 } 
